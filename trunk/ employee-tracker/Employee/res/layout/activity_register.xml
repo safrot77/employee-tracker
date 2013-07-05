@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#D05860"
+    android:cacheColorHint="#00000000" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dip" >
+
+        <EditText
+            android:id="@+id/first_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:layout_marginTop="15dip"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:imeActionLabel="Next"
+            android:gravity="center"
+            android:inputType="textCapWords"
+            android:hint="@string/first_name"
+            >
+        </EditText>
+
+        <EditText
+            android:id="@+id/last_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginBottom="15dip"
+            android:inputType="textCapSentences"
+            android:ellipsize="end"
+            android:imeActionLabel="Next"
+            android:gravity="center"
+            android:hint="@string/Last_name"
+             >
+        </EditText>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:imeActionLabel="Next"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:gravity="center"
+            android:imeActionLabel="Next"
+            android:hint="@string/login_mobile"
+            android:inputType="number" >
+        </EditText>
+            
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:imeActionLabel="Next"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hint="@string/login_password"
+            android:inputType="textPassword" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/confirm_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:imeActionLabel="Next"
+            android:layout_marginBottom="15dip"
+            android:gravity="center"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword" >
+        </EditText>
+
+        <Spinner
+            android:id="@+id/employer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:prompt="@string/employer_prompt" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="30dip"
+            android:background="#fff"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/register"
+            android:textColor="#D05860" />
+    </LinearLayout>
+
+</ScrollView>
