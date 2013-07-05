@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="privacy_array">
+        <item>Only Me</item>
+        <item>Friend</item>
+        <item>Group</item>
+        <item>All</item>
+        <item>Public</item>
+    </string-array>
+</resources>
